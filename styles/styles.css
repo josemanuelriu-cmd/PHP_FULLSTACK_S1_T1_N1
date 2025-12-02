@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width:1200px;    
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    padding: 20px;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:20px;
+    margin-bottom: 20px;
+}
+.sup{
+    background-color: #2C4059;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px;
+}
+.logo,
+.social,
+.nav{
+    background-color: #EA5455;
+    padding: 20px 0px 20px 10px;  
+    display: flex;
+    flex-grow:1;
+}
+.nav{
+    flex-grow:3;
+}
+.inf{
+    background-color: #FF8B00;
+    padding: 20px;
+    display: flex;
+}
+.banner{
+    display: flex;
+    background-color: #FED700;
+    flex-grow:1;
+    padding-left: 10px;
+}
+.banner h2{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.central_body{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+}
+.left{
+    background-color: #4E4E6A;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow:3;       
+}
+.article{
+    background-color: #1F6CB0;
+    padding: 20px 0px 20px 10px;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 48%;
+    margin-bottom: 15px;   
+}
+.art_right{
+    margin-right: 0px;
+}
+.navigation{
+    background-color: #71A3C4;
+    width: 100%;
+    padding: 5px 5px;
+    padding-left: 10px;
+}
+.right{
+    background-color: #F63F51;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;        
+}
+.publicidad{
+    background-color: #FED700;
+    padding: 5px 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    padding-left: 10px;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+    margin-top: 15px;
+}
+.footer{
+    background-color: #F0E78C;
+    padding: 5px 5px;
+    padding-left: 10px;
+}
